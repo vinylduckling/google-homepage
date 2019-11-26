@@ -1,0 +1,50 @@
+body {
+    -webkit-appearance: none;
+}
+#maincenter {
+
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+
+}
+
+#logo {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+
+#searchbar {
+    display: block;
+    width: 550px;
+    height: 45px;
+    margin: 0 auto;
+    border-radius: 40px;
+    border: 1px solid #d6d5d5;
+}
+
+#searchbuttons {
+    margin-top: 25px;
+    text-align: center;
+
+}
+
+.searchbutton {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0 18px 0 18px;
+    width: auto;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    color: #5F6368;  //color of text
+}
