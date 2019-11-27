@@ -1,12 +1,70 @@
 body {
     -webkit-appearance: none;
 }
+
+#horizontalnav {
+    margin: 12px 8px;
+}
+#horizontalnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#horizontalnav li {
+    float: left;
+    padding: 10px;
+}
+
+#horizontalnav a {
+    display: block;
+    padding: 0px;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    color: #000000;
+    opacity: 0.75;
+}
+
+#horizontalnav #navRight {
+    float: right;
+}
+
+#horizontalnav #navRight a {
+    opacity: .85;
+}
+
+#horizontalnav #navRight #linkLogoOp a  {
+    opacity: .55;
+}
+
+#horizontalnav #linkLogo {
+    width: 30px;
+    height: 30px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-top: -7px;
+    background-position: -132px -38px;
+    background-position-x: -132px;
+    background-position-y: -38px;
+    background-size: 528px 68px;
+    background-image: url("../images/linklogo.png");
+}
+#horizontalnav #signIn {
+    background-color: #2472f0;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 13px 8px 13px;
+    margin-top: -8px; 
+    border-radius: 4px;
+}
+
+
 #maincenter {
 
     width: 600px;
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 340px;
     transform: translate(-50%, -50%);
 
 }
@@ -15,21 +73,25 @@ body {
     display: block;
     width: auto;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     
 }
 
 #searchbar {
     display: block;
-    width: 550px;
+    width: 580px;
     height: 45px;
     margin: 0 auto;
-    border-radius: 40px;
+    border-radius:25px;
     border: 1px solid #d6d5d5;
 }
 
+#searchbar:hover {
+    box-shadow: 0 0 7px rgb(216, 218, 221);
+}
+
 #searchbuttons {
-    margin-top: 25px;
+    margin-top: 28px;
     text-align: center;
 
 }
@@ -40,11 +102,22 @@ body {
     margin-right: 5px;
     padding: 0 18px 0 18px;
     width: auto;
-    height: 35px;
+    height: 36px;
     border-radius: 5px;
     border: none;
     font-family: arial, sans-serif;
     font-size: 14px;
     background-color: #f2f2f2;
     color: #5F6368;  //color of text
+}
+
+#centerText {
+    margin-top: 24px;
+    text-align: center;
+    color: #1558d6;
+    font: 13px small arial, sans-serif;
+}
+
+#centerColorChange {
+    color: #222222;
 }
